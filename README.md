@@ -1,2 +1,1 @@
-# KotlinTest
-Kotlin test application with some unit tests
+# Kotlin Test Android Application
