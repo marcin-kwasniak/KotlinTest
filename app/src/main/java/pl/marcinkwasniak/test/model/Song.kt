@@ -23,9 +23,9 @@ data class Song(
 fun song(block: SongBuilder.() -> Unit): Song = SongBuilder().apply(block).build()
 
 @DslMarker
-annotation class LinkDsl
+annotation class SongDsl
 
-@LinkDsl
+@SongDsl
 class SongBuilder {
     var title: String = ""
     var artist: String = ""
